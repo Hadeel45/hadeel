@@ -1,0 +1,911 @@
+body{
+    background-color: rgb(253,245,230);
+}
+.logo{
+    width: 250px;
+    height: 125px;
+    margin-left: 820px;
+    margin-bottom: 190px;
+
+}
+.yel{
+    color: khaki;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -300px;
+    font-family: Courier, monospace;
+    font-size:50px;
+}
+
+.brif{
+    color: rgb(230, 216, 97);
+    text-align: center;
+    font-family: Courier, monospace;
+    font-size:20px;
+}
+.alert{
+    width: 400px;
+    height: 45px;
+    margin-left:-10px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    background-color: rgb(247, 206, 206);
+}
+
+.click:hover{
+    color: black;
+    cursor:grab;
+    font-size: larger;
+}
+.alert:hover{
+    background-color: red;
+}
+
+.box{
+    margin-left: 1080px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:20px;
+    font-weight: bolder;
+}
+.box1{
+    margin-left: 1080px;
+}
+.submit{
+    background-color:khaki ;
+}
+
+.box1:hover{
+    color: green;
+}
+
+.submit:hover{
+    cursor: grab;
+    font-size: larger;
+}
+
+
+
+.q{
+    text-align: center;
+}
+
+.cut{
+    height: 2px;
+    width: 800px;
+    margin-left: 240px;
+    background-color:khaki;
+}
+
+.menue{
+    text-align: center;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:70px;
+    font-weight:lighter;
+}
+
+.most{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+    
+}
+
+.first{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.ch{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:20px;
+}
+
+.opo{ /*describtion*/
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p1{ /*price*/
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9s;
+  
+}
+.p1:hover{
+color: black;
+border-radius:50px;
+transform: scale(1.3);
+}
+
+.bu1{ /*Button*/
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+.true{
+    display: none;
+    margin-top: -50px;
+    width: 80px;
+    height: 55px;
+    margin-left: 1010px;
+}
+
+.bu1:active~ .true{ /*To show the true sign when I click to "Add to the chart". It's a temprorary solution*/
+    display: block;
+}
+
+h5{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:20px;
+}
+
+h6{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p2{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9s;
+}
+.p2:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu2{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+.bu2:focus:after{
+    content: ' \2705';
+}
+.bu2:focus{
+    font-size: larger;
+}
+
+.ui{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.ww{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p3{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p3:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu3{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.sa{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.gr{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.p4{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p4:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu4{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.cont{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.ta{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.p5{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    cursor: 0.9;
+}
+.p5:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+
+.bu5{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.bur{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.che{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.sd{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p6{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p6:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+
+.bu6{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.combo{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:30px;
+}
+
+.cony{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p8{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p8:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+
+.bu8{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.veg{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.oi{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p9{
+    color: gray;
+    margin-left: 500px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p9:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.fr{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.fres{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.conm{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p7{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p7:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu7{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.kl{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.ch{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:15px;
+}
+
+.p10{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p10:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu10{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.sp{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p11{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p11:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu11{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.ce{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p12{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p12:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu12{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+.soe{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p13{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p13:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu13{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.ks{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.ch{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p14{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p14:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu14{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.te{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p15{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p15:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu15{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+.er{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p16{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p16:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu16{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.lee{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p17{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    transition: 0.9;
+}
+.p17:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu17{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+.go{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:23px;
+}
+
+.p18{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p18:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+   
+}
+
+.but{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+
+}
+
+.vega{
+    margin-left: 300px;
+    color: khaki;
+    font-family: Courier, monospace;
+    font-size:40px;
+}
+
+.let{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:25px;
+}
+
+.p19{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p19:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+.bu19{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+.oni{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:25px;
+}
+
+.p20{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p20:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu20{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+.cor{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:25px;
+}
+
+.p21{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p21:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu21{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.may{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+   font-size:25px;
+}
+
+.p22{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p22:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu22{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+
+
+.tom{
+    margin-left: 300px;
+    color: gray;
+    font-family: Courier, monospace;
+    font-size:25px;
+}
+
+.p23{
+    color: gray;
+    margin-left: 800px;
+    font-family: Courier, monospace;
+    font-size:23px;
+    transition: 0.9;
+}
+.p23:hover{
+    color: black;
+    border-radius:50px;
+    transform: scale(1.3);
+    }
+
+.bu23{
+    color: black;
+    background-color: khaki;
+    font-family: Courier, monospace;
+    cursor: pointer;
+}
+
+
+.links{
+    height: 3px;
+    width: 800px;
+    margin-left: 240px;
+    margin-top: 30px;
+    background-color:khaki;
+}
+
+.insa1{
+    width: 45px;
+    height: 40px;
+    margin-left: 300px;
+}
+
+.phone{
+    width: 35px;
+    height: 30px;
+    margin-left: 190px;
+    margin-top: -40px;
+}
+
+.insa{
+    width: 45px;
+    height: 40px;
+    margin-left: 400px;
+}
+
+.payment{
+    width: 35px;
+    height: 30px;
+    margin-left: 190px;
+    margin-top: -40px;
+}
+
+.burgan{
+    width: 75px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+
+.nav{
+    height: 20px;
+    width: 400px;
+    background-color: khaki;
+    text-align: center;
+    margin-left: 450px;
+}
+
+.nav a{
+    padding: 6px 8px 6px 16px;
+    color: white;
+}
+
+a:hover{
+    color: gray;
+}
+
+a:link{ /*Delet the line under the link*/
+    text-decoration: none;
+} 
